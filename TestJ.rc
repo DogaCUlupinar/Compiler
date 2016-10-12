@@ -1,0 +1,10 @@
+
+	int *ptr;
+function : void main(){
+	const int x = 4;
+
+	
+	delete ptr;
+	
+	cout<<"we are here"<<endl;
+}

@@ -1,0 +1,27 @@
+int xx = 3;
+
+function : float foo()
+{
+	
+	xx = 2;
+	return xx;
+
+}
+
+
+float x ,y;
+
+
+function : void main ()
+{
+	int z = 1;
+	x = 9000.01;
+	y = (x * z) /x;
+	
+	
+	cout<<"y:"<<y<<endl;
+	cout<<"z:"<<z<<endl;   // promote don't change x
+	
+	cout<<"foo:"<<foo()<<endl;
+	cout<<xx<<endl;
+}

@@ -1,0 +1,21 @@
+
+int a = 0;
+
+function : void foo ()
+{	
+	const int a = 1;
+	cout<<"In Foo"<<endl;
+
+	exit (::a);
+	
+}
+
+
+function : void main ()
+{
+	foo();
+	cout<<"In Main"<<endl;
+	
+	return;	
+	
+}

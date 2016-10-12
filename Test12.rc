@@ -1,0 +1,46 @@
+
+
+
+function : void main ()
+{
+	int a = 0;
+	int b = 1;
+	int c = 2;
+	int d = 3;
+	int x = 4;
+	int y = 5;
+	
+	
+
+		
+	if ( (a > -1) && (b >= 1) ){
+		cout<<"step 1"<<endl;
+		
+		while ( (c<3) && (d<=3)) {
+			cout<<"step 2"<<endl;
+			
+			if ( (a!=0) || (y==5) ) {
+				cout<<"step 3"<<endl;
+				
+			}	
+			
+			c++;
+		}
+		
+		if (a == 0) {
+			cout<<"step 4"<<endl;
+		}
+		
+	}
+	
+	cout<<a<<endl;
+	cout<<b<<endl;
+	cout<<c<<endl;
+	cout<<d<<endl;
+	cout<<x<<endl;
+	cout<<y<<endl;
+	
+
+
+
+}

@@ -1,0 +1,11 @@
+function : int foo(){
+	static int x = 5;
+	++x;
+	return x;
+}
+
+function : void main(){
+	cout<<"should be 6 and is : "<<foo()<<endl;
+	cout<<"should be 7 and is : "<<foo()<<endl;
+	cout<<"should be 8 and is : "<<foo()<<endl;
+}

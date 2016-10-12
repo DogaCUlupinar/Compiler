@@ -1,0 +1,13 @@
+extern int globalx;
+function : void foo(){
+
+	int y;
+	y = globalx;
+
+	cout<<"should be 5 and is "<<y<<endl;
+	
+	globalx = 10; 
+	
+	
+	
+}

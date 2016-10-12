@@ -1,0 +1,21 @@
+
+int c = 10;
+
+function : void main ()
+{
+
+	int a = 12;
+	cout<<-a<<endl;
+	cout<<a<<endl;
+	
+	int b = -12;
+	cout<<-b<<endl;
+	
+	cout<<a + b<<endl;
+	
+	a = -a;
+	cout<<a<<endl;
+
+
+
+}

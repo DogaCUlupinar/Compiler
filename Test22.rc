@@ -1,0 +1,48 @@
+
+
+int aa = 30;
+
+function : int & foo ()
+{
+	int a = 3;
+	return aa;
+
+}
+
+
+float bb = 3.2;
+
+function : float  & foo2 ()
+{
+	float b = 31.5;
+	return bb;
+
+}
+
+
+
+int z = 1;
+
+function : void main()
+{
+
+	z = z + foo();
+	cout<<z<<endl;
+	
+	cout<<++foo()<<endl;
+	foo() = foo() + 1;
+	cout<<foo()<<":"<<aa<<endl;
+	cout<<aa++<<endl;
+	cout<<foo()++<<":"<<aa<<endl;
+	
+	cout<<"----------"<<endl;
+	
+	float q = foo2() + 2;
+	cout<<q<<endl;
+	cout<<foo2() + 10<<endl;
+	foo2 () = foo2 () - 3;
+	cout<<++foo2()<<endl;
+	
+	cout<<foo2()<<":"<<bb<<endl;
+
+}

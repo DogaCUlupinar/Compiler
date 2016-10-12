@@ -1,0 +1,46 @@
+structdef A { int a; int aa; };
+function : void main(){
+	A[10] structArray;
+	structArray[1].aa = 42;
+	structArray[2].aa = 24;
+	int[3] myArray;
+	myArray[1]= 100;
+	myArray[2] = 420;
+	int * ptr;
+	A * structPtr;
+	ptr = myArray;
+	structPtr = structArray;
+	
+	ptr++;
+	cout<<"should be 100 and is : "<<*ptr<<endl;
+	
+	ptr++;
+	cout<<"should be 420 and is : "<<*ptr<<endl;
+	char debug = "0";
+	ptr--;
+	cout<<"should be 100 and is : "<<*ptr<<endl;
+	
+	
+	structPtr++;
+	cout<<"should be 42 and is : "<<structPtr->aa<<endl;
+	structPtr++;
+	cout<<"should be 24 and is : "<<structPtr->aa<<endl;
+	structPtr--;
+	cout<<"should be 42 and is : "<<structPtr->aa<<endl;
+	
+	
+	
+	++ptr;
+	cout<<"should be 420 and is : "<<*ptr<<endl;
+	
+	--ptr;
+	cout<<"should be 100 and is : "<<*ptr<<endl;
+	
+	
+	
+	++structPtr;
+	cout<<"should be 42 and is : "<<structPtr->aa<<endl;
+	--structPtr;
+	cout<<"should be 42 and is : "<<structPtr->aa<<endl;
+	
+}

@@ -1,0 +1,31 @@
+int a = 111111;
+
+
+function : float & foo () {
+	int a = 232;
+	bool s = false;
+	float ss = 1.23;
+	
+	cout<<"second:";
+	return ss;
+}
+
+function : int  foo2 () {
+	int a = 232;
+
+	return a;
+}
+
+
+
+
+function : void main() {
+
+	int a = 2222222;
+	cout<<"first"<<":"<<foo()<<":"<<true<<endl;
+	cout<<"local:"<<a<<endl;
+	cout<<"global:"<<::a<<"\n";
+
+	
+
+}

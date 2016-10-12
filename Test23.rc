@@ -1,0 +1,24 @@
+
+
+
+function : void  foo ( float & b ) 
+{
+	
+	cout<<b<<endl;
+	b++;
+
+}
+
+
+float x = 11.2;
+
+function : void main ()
+{
+
+	float b = 30.2;
+	foo(x);
+	cout<<x<<endl;
+	
+
+	
+}

@@ -1,0 +1,31 @@
+
+int * globalPtr;
+	
+	
+function : void foo ( int * & param )
+{
+
+	cout<<*param<<endl;
+	*param = 3333;
+	cout<<*param<<endl;
+
+
+}
+
+	
+
+function : void main(){
+	int x = 4;
+	globalPtr = &x;
+	
+	int *localPtr = &x;
+	
+	* globalPtr = 3;
+	* localPtr = 3;
+	
+	foo( localPtr );
+	
+	cout<<*localPtr<<endl;
+	
+	
+}

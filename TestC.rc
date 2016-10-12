@@ -1,0 +1,17 @@
+structdef A { int a; int[3] aa; int aaa;};
+structdef B { int[3] b; A bb; float bbb;}; 
+	A[3] structga;
+	B[3] structgb;
+	
+function : void main(){
+	A[3] structa;
+	B[3] structb;
+	
+	structga[1].aaa = 1;
+	cout<<"this is going to make me so happy if it works should equal 1 and is : "<<structga[1].aaa<<endl;
+	
+	structb[1].bbb = 4.20;
+	cout<<"this is going to make me so happy if it works should equal 4.2 and is : "<<structb[1].bbb<<endl;
+	structb[1].bb.aa[1] = 2;
+	cout<<"if this works i will straight up cry from happiness should be 2 and is : "<<structb[1].bb.aa[1]<<endl;
+}

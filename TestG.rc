@@ -1,0 +1,11 @@
+structdef A { int a; int aa; int[10] array; float f; };
+	
+function : void main(){
+	A a;
+	A* pointerA;
+	pointerA = &a;
+	pointerA->array[1] = 4;
+	int print = pointerA->array[1];
+	
+	cout<<"should be 4 and is : "<<print<<endl; 
+}

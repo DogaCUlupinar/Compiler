@@ -1,0 +1,14 @@
+
+
+
+function : void main()
+{
+	int [3]a;
+	int index = 2;
+	a[2] = 5000;
+	a[1] = 2;
+	char debug  = "!";
+	int *p = a;
+	cout<<p[a[1]]<<endl;
+
+}

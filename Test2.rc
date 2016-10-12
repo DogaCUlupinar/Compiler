@@ -1,0 +1,27 @@
+
+function : void main() {
+
+	const int c = 222;
+	const int d =c;
+	
+	cout<<"int:"<<d<<endl;
+	
+	
+	const float cc = 222.2;
+	const float dd =cc;
+	
+	
+	cout<<"float:"<<dd<<endl;
+	
+
+	const bool ccc = true;
+	const bool ddd = ccc;
+	
+	
+	cout<<"bool:"<<ddd<<endl;
+	
+
+	
+	
+
+}

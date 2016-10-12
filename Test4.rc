@@ -1,0 +1,13 @@
+int x = 4;
+int y;
+const int c = 5;
+int z = c;
+
+function : int main() {
+y = 11;
+z = c - y;
+z = z + x;
+cout << z << endl;
+return -2;
+}
+

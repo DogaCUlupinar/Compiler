@@ -1,0 +1,34 @@
+function : int * good(bool alloc){
+static int y = 5;
+int * yy;
+
+	if (alloc){
+		new yy;
+		return yy;
+	}
+
+	return &y;	
+}
+
+function : int * bad(){
+	int z;
+	return &z;
+}
+function :int **** goodBad( int *** zz){
+	*zz;
+	return &zz;
+}
+int * ip;
+function : void main(){
+	int ** ipp = &ip;
+	*ipp;
+	*&ipp;
+	*good(true);
+	*good(false);
+	
+	*bad();
+	
+	*goodBad(&ipp);
+	
+}
+

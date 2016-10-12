@@ -1,0 +1,74 @@
+
+function : void foo()
+{
+	cout<<"In Foo"<<endl;
+	int x ;
+	float y;
+	bool z;
+	
+	x = 10;
+	y = 2.33;
+	z = true;
+		
+	int t1 = (int)y;
+	cout<<t1<<endl;
+
+	int t3 = (int)z;
+	cout<<t3<<endl;
+		
+	float t2 = (float)x;
+	cout<<t2<<endl;
+	
+	float t4 = (float)z;
+	cout<<t4<<endl;
+	
+	bool t5 = (bool)x;
+	cout<<t5<<endl;
+	
+	bool t6 = (bool)y;
+	cout<<t6<<endl;
+	
+
+
+}
+
+
+
+function : void main()
+{
+	cout<<"In main"<<endl;
+	cout<<(int)(false)<<endl;
+	cout<<(int)(true)<<endl;
+	
+	cout<<(int)(3.99)<<endl;
+	cout<<(int)(-2.1)<<endl;
+	
+	cout<<endl;
+	
+	cout<<(bool)(23)<<endl;
+	cout<<(bool)(0)<<endl;
+	cout<<(bool)(-213)<<endl;
+	
+	cout<<(bool)(3.1)<<endl;
+	cout<<(bool)(-2.1)<<endl;
+	cout<<(bool)(0.0)<<endl;
+	
+	cout<<endl;
+	
+	cout<<(float)(2)<<endl;
+	cout<<(float)(-3)<<endl;
+	cout<<(float)(0)<<endl;
+	
+	cout<<(float)(true)<<endl;
+	cout<<(float)(false)<<endl;
+
+	cout<<endl;
+	
+	foo();
+}
+
+
+
+
+
+

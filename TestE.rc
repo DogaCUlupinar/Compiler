@@ -1,0 +1,24 @@
+int * globalPtr;
+	
+function : void main(){
+	float x = 4.20;
+	float * localPtr;
+	float ** localPtrptr;
+	
+	int xi = 4;
+	int * localPtri;
+	int ** localPtrptri;
+	
+	localPtr = &x;
+	localPtrptr = &localPtr;
+	
+	char debug = "0";
+	new localPtri;
+	delete localPtri;
+	
+	cout<<"should be 4.20 and is : "<<**localPtrptr<<endl;	
+	
+	**localPtrptr = 42.0;
+	cout<<"should be 42.0 and is : "<<**localPtrptr<<endl;
+	
+}

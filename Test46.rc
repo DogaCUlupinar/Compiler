@@ -1,0 +1,15 @@
+int k = 100;
+
+function : int fobi (){
+   int k;
+   if (--::k == 0) {
+   		cout<<"k is : "<<::k<<endl;
+      return 0;
+   }
+   cout << k = ::k;
+   return k + fobi();
+}
+
+function : void main(){
+   cout << fobi() << endl;
+}

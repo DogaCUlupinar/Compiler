@@ -1,0 +1,37 @@
+structdef A { int a; int[3] aa; int aaa;};
+structdef B { int[3] b; A bb; float bbb;}; 
+	A structga;
+	B structgb;
+	
+function : void main(){
+	
+	A structa;
+	B structb;
+	float f = 42.2;
+	int i = 44;
+	
+	//Simple test
+	structb.bbb = 4.2;
+	cout<<"should be 4.2 and is: "<<structb.bbb<<endl;
+	structb.bbb = f;
+	cout<<"should be 42.2 and is: "<<structb.bbb<<endl;
+	structa.a = 4;
+	cout<<"should be 4 and is : "<<structa.a<<endl;
+	structa.a = i;
+	cout<<"should be 44 and is : "<<structa.a<<endl;
+	structga.a = 4;
+	cout<<"should be 4 and is : "<<structga.a<<endl;
+	
+	//Slightly harder tests
+	structb.bb.a = i;
+	cout<<"should be 44 and is : "<<structb.bb.a<<endl;
+	structgb.bb.a = 4;
+	cout<<"should be 4 and is : "<<structgb.bb.a<<endl;
+	
+	//Hardest Tests
+	structb.bb.aa[1] = 3;
+	cout<<"should be 3 and is : "<<structb.bb.aa[1]<<endl;
+	structgb.bb.aa[1] = i;
+	cout<<"should be 44 and is : "<<structgb.bb.aa[1]<<endl;
+	
+}

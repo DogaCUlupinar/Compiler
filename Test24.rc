@@ -1,0 +1,42 @@
+
+int g = 10;
+
+function : void  foo ( int & b ) 
+{
+	
+	cout<<b<<endl;
+	b++;
+
+}
+
+function : void  foo3 ( float  b ) 
+{
+	
+	cout<<b<<endl;
+
+
+}
+
+
+function : int  & foo2 ()
+{
+	return g;
+}
+
+function : float   foo4 ()
+{
+	float w = 2.2;
+	return w;
+}
+
+
+
+function : void main ()
+{
+	
+	foo ( foo2() );
+	cout<<g<<endl;
+	
+	foo3 ( foo4() );
+	
+}

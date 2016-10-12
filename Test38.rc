@@ -1,0 +1,35 @@
+
+structdef A {int a; float b; int c ; int d; };
+structdef B {int b; A bb; };
+A aa;
+B bb;
+
+function : B & foo(A a , B b) 
+{
+
+	cout<<a.b<<endl;
+	cout<<b.bb.b<<endl;
+	
+	b.bb.b = 111.11;
+	return b;
+
+}
+
+
+function : void main()
+{
+	
+	aa.b=3.2;
+	bb.bb.b = 10.22;
+	
+ 	foo(aa, bb);
+ 	
+ 	int dd = 3333;
+ 	cout<<bb.bb.b<<endl;
+ 	cout<<aa.b<<endl;
+ 	
+  	//cout<<re.bb.b<<endl;
+
+ 	
+
+}

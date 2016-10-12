@@ -1,0 +1,27 @@
+
+structdef A { int k ; int [6000]b ; int f;};
+
+
+
+function : void main()
+{
+
+	int [5000]a;
+	a[4999] = 3;
+	cout<<a[4999]<<endl;
+	
+	int b = 2 * 10000;
+	cout<<b<<endl;
+	
+	A q;
+	q.k = 3;
+	q.f = 5000;
+	char debug  = "!";
+	q.b[q.f] = 6111;
+	//q.b[5000] = 6111;
+	
+	cout<<q.k<<endl;
+	cout<<q.f<<endl;
+	cout<<q.b[5000]<<endl;
+
+}

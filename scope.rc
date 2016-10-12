@@ -1,0 +1,14 @@
+bool x;		// global x
+bool y;
+
+function : int main() {
+  int x;	// local x
+  int b;
+  //According to Check 1, the + operator takes only float and/or int
+  //as valid operands.
+
+  x = x + b;	// Fix the Phase 0 scope bug to find the local int x first !
+
+
+  return b;
+}

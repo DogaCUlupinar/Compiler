@@ -1,0 +1,37 @@
+
+
+function : void main()
+{
+	int a = 3;
+	bool b = true;
+	
+	if (false) {
+	
+	while(a >= 0) {
+		cout<<"a:"<<a<<endl;
+		--a;
+		
+		int b = 2;
+		
+		while (b >0) {
+			cout<<"b:"<<b<<endl;
+			b--;
+		
+		}
+	}
+
+
+	}
+	
+	cout<<"end:"<<b<<endl;
+	
+	int x = 4;
+	
+	while (x >0){
+		cout<<x<<endl;
+		x--;
+		int x = -1;
+		 
+	}
+
+}

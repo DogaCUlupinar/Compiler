@@ -1,0 +1,17 @@
+function : void foo(float a) 
+{
+	//int aa = 22;
+	cout<<a<<endl;
+	//return aa;
+
+}
+
+
+function : void main()
+{
+	
+	int x = 3;
+	foo(x);
+	cout<<x<<endl;
+
+}

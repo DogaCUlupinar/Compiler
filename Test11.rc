@@ -1,0 +1,22 @@
+
+
+
+function : void main ()
+{
+	
+	float a = 2.0;
+	int b = 1;
+	
+	cout<< a * b / 2.0<<endl;
+	cout<< -a <<endl;
+	cout<< a <<endl;
+	
+	if (a < b || ++b >= a) {
+		cout<<"win"<<endl;
+	}
+	
+	cout<<a<<endl;
+	cout<<b<<endl;
+
+
+}

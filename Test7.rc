@@ -1,0 +1,98 @@
+int a = 111111;
+
+
+function : float  foo1 () {
+	
+
+	return 1.2323;
+}
+
+function : int  foo2 () {
+	cout<<"foo2"<<":"<<foo1()<<endl;
+	return 23;
+}
+
+function : bool  foo3 () {
+
+	return false;
+}
+
+function : float &  foo4 () {
+	float a = 22.23;
+
+	return a;
+}
+
+function : int  & foo5 () {
+	int a = 232;
+
+	return a;
+}
+
+function : bool & foo6 () {
+	bool a = true;
+
+	return a;
+}
+
+
+function : float  foo7 () {
+	float q;
+	q = 123.3;
+	return q;
+}
+
+function : int  foo8 () {
+	int a = 2;
+	return a;
+}
+
+function : bool  foo9 () {
+	bool a = true;
+	return a;
+}
+
+
+
+function : void main() {
+
+
+	cout<<"foo1"<<":"<<foo1()<<endl;
+	cout<<"foo2"<<":"<<foo2()<<endl;
+	
+	cout<<"foo3"<<":"<<foo3()<<endl;
+	cout<<"foo4"<<":"<<foo4()<<endl;
+	cout<<"foo5"<<":"<<foo5()<<endl;
+	cout<<"foo6"<<":"<<foo6()<<endl;
+	
+	
+	cout<<"foo7"<<":"<<foo7()<<endl;
+	cout<<"foo8"<<":"<<foo8()<<endl;
+	cout<<"foo9"<<":"<<foo9()<<endl;
+
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

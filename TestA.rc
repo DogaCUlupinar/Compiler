@@ -1,0 +1,42 @@
+int[3] gi;
+float[3] gf;
+bool[3] gb;
+function : void main(){
+	
+	int[3] i;
+	float[3] f;
+	bool[3] b;
+	i[1] = 2;
+	
+	f[2] = 1.8;
+	char debug = "0";
+	f[i[1]]= 1.8;
+	cout<<"should be 1.80 ans is: "<<f[i[1]]<<endl;
+	gi[2] = 1;
+	gf[0] = -1.5;
+	gf[1] = -4.20;
+	gb[0] = false;
+	
+	cout<<"should be 1 and is : "<<gi[2]<<endl;
+	cout<<"should be -1.5 and is : "<<gf[0]<<endl;
+	cout<<"should be false and is ; "<<gb[0]<<endl;
+	
+	i[1] = 2;
+	f[2] = 4.2;
+	cout<<"should be 2 and is : "<<i[1]<<endl;
+	cout<<"should be 4.2 and is : "<<f[2]<<endl;
+	
+	//slightly harder test
+	char debug = "0";
+	cout<<"should be -4.20 and is : "<<gf[gi[2]]<<endl;
+	cout<<"should be 4.20 ans is: "<<f[i[1]]<<endl;
+	//some more tests
+	int[3] ii;
+	int[3] iii;
+	iii[2] = 3;
+	ii[1] = 2;
+	i[0] = 1;
+	char debug = "0";
+	int out = iii[ii[i[0]]];
+	cout<<"should be 3 ans is: "<<out<<endl;
+}

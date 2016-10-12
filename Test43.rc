@@ -1,0 +1,15 @@
+
+
+structdef MYS
+{
+ int [5]a;
+};
+
+
+function : void main()
+{
+ 	MYS b;
+ 	b.a[0] = 33;
+ 	int *g = b.a;
+ 	cout<<g[0]<<endl;
+}

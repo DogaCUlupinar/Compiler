@@ -1,0 +1,31 @@
+
+int * globalPtr;
+int y;
+	
+function : void foo ( int * param , int * param2 )
+{
+
+	cout<<*param<<endl;
+	cout<<*param2<<endl;
+	*param = 3333;
+	*param2 = 321;
+
+}
+
+		
+	int [3] myArray;
+
+function : void main(){
+	int x = 4;
+	char debug = "!";
+	globalPtr = &x;
+	* globalPtr = 3;
+
+	myArray[2] = 123;
+	
+	foo( globalPtr , &myArray[2] );
+	
+	cout<<*globalPtr<<endl;
+	cout<<myArray[2]<<endl;
+	
+}

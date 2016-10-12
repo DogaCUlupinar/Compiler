@@ -1,0 +1,39 @@
+function : void foo(int aa, int* a, int* b )
+{
+
+	cout<<*a<<endl;
+	cout<<*b<<endl;
+
+
+}
+
+function : void foo1(int a, int b )
+{
+
+	cout<<a<<endl;
+	cout<<b<<endl;
+
+
+}
+
+function : void main(){
+	int xxi = 40;
+	int * localPtrxx;
+	int[2] array;
+	
+	array[0] = 1;
+	array[1] = 2;
+	
+
+	
+	int xi = 4;
+	int * localPtrx;
+
+	
+	localPtrx = &xi;
+	localPtrxx = &xxi;
+
+
+	foo( 1, localPtrx,localPtrxx);
+	
+}

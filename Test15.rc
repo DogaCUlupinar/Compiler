@@ -1,0 +1,16 @@
+
+float b = 2.23;
+
+function : void main()
+{
+	int a = 2;
+	cin>>a;
+	cout<<a<<endl;
+
+	cin>>b;
+	cout<<b<<endl;
+	
+	float d = 3 + b * 420;
+	cout<<d<<endl;
+
+}

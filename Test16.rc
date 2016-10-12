@@ -1,0 +1,26 @@
+	
+int i = 4;
+bool b1;
+	
+
+function : void foo(int j)
+{
+	cout<<"In foo"<<endl;
+	if (b1 = j > 0) {
+		cout<<j<<endl;
+		foo (i = i -1);
+		cout<<j<<endl;
+	}
+
+}
+
+function : void main ()
+{
+
+	foo (i);
+	
+	cout<<"In Main"<<endl;
+	cout<<i<<endl;
+	cout<<b1<<endl;
+	
+}

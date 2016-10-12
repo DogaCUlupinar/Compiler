@@ -1,0 +1,17 @@
+
+
+
+
+function : void main ()
+{
+	float a = 1.0;
+	cout<<a++<<endl;
+	cout<<a--<<endl;
+	cout<<a<<endl;
+
+	float b = 5.0;
+	cout<<++b<<endl;
+	cout<<--b<<endl;
+
+	
+}

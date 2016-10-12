@@ -1,0 +1,25 @@
+
+int [1]x;
+
+
+function : void foo(int [7] &a) 
+{
+	int xx = 3;
+	cout<<a[a[4]]<<endl;
+	a[xx] = 222;
+	cout<<a[3]<<endl;
+
+}
+
+
+
+function : void main()
+{
+	
+	int [7]x;
+ 	x[3] = 100;
+ 	x[4] = 3;
+ 	cout<<x[3]<<endl;
+ 	foo(x);
+ 	cout<<x[3]<<endl;
+}

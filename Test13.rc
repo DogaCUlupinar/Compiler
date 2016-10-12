@@ -1,0 +1,31 @@
+
+
+
+function : void main ()
+{
+	int a = 0;
+	/*int b = 1;
+	int c = 2;
+	int d = 3;
+	int x = 4;
+	
+	bool y = true;
+	
+	if (y) {
+		cout<<"win"<<endl;
+	}
+	
+	cout<<y<<endl;
+	*/
+	
+	if ( ((a++ != 0 ) && ((a = a+100) > 1))  ||  ((++a >= 0) || ((a = a + 300) < 2)) ) {
+		cout<<"fail"<<endl;
+	
+	}
+	
+	cout<<a<<endl;   //a should be 2 
+	
+
+
+
+}

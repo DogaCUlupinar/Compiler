@@ -1,0 +1,16 @@
+structdef A {int a; int bb;};
+A aa;
+A aaa;
+function : void main(){
+A bb;
+A bbb;
+	bb.bb = 2;
+	bbb = bb;
+	cout<<"should be 2 and is : "<<bbb.bb<<endl;
+	
+	aa.a = 23;
+	aaa = aa;
+	cout<<"should be 23 and is :"<<aaa.a<<endl;
+	
+}
+

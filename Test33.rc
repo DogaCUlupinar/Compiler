@@ -1,0 +1,11 @@
+structdef A {int a; int[10] aa; float f; };
+
+function : void main(){
+
+	A a;
+	int * ptr;
+	ptr = &a.a;
+	*ptr = 3;
+	cout<<a.a<<endl;
+	cout<<*ptr<<endl;
+}

@@ -1,0 +1,38 @@
+
+	
+function : void main()
+{
+	//int x ;
+	float y;
+	//bool z;
+	
+	//x = 10;
+	y = 2.33;
+	//z = true;
+	
+/*	int *a;
+	a = &x;
+	*/
+	float *b;
+	b = &y;
+	
+/*	bool *c ;
+	c = &z;
+	*/	 
+/*	cout<<"a ,b ,c"<<endl;
+	cout<<*a<<endl;
+	cout<<*b<<endl;
+	cout<<*c<<endl;
+	
+	cout<<endl;
+	*/
+	/*float *t1;
+	t1 = (float*)a;
+	cout<<*t1<<endl;
+	*/
+	
+	
+	int t2 = *(int *)&y;
+	cout<<t2<<endl;
+	
+}

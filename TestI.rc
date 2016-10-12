@@ -1,0 +1,11 @@
+	
+function : void main(){
+	int[3] array;
+	int index = 1;
+	int index2 = 100;
+	char debug = "0";
+	array[2- index2] = 5;
+	array[2] = 5;
+	cout<<"should be 5 and is "<<array[2 - index]<<endl;
+	
+}

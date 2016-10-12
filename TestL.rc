@@ -1,0 +1,18 @@
+static int x = 1;
+
+function : void foo(){
+	static int x = 4;
+	cout<<"should be 4 and is : "<<x<<endl;
+}
+
+function : void main(){
+	cout<<"should be 1 and is : "<<x<<endl;
+	static int x = 2;
+	cout<<"should be 2 and is : "<<x<<endl;
+	if (true){
+		static int x = 3;
+		cout<<"should be 3 and is : "<<x<<endl;
+	}
+	foo();
+	cout<<"should be 2 and is : "<<x<<endl;
+}

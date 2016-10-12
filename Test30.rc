@@ -1,0 +1,35 @@
+
+
+
+structdef A {int a; float b;};
+structdef B {int b; A bb; };
+A aa;
+B bb;
+
+typedef int [3] C;
+C cc;
+
+function :  B  & foo()
+{
+	bb.bb.a = 3;
+	return bb;
+}
+
+
+function :  C & foo2()
+{
+	cc[2] = 4;
+	return cc;
+}
+
+
+
+
+
+function : void main()
+{
+
+	cout<<foo().bb.a<<endl;
+	cout<< foo2()[2]<<endl;
+
+}

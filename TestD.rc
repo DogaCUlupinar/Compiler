@@ -1,0 +1,15 @@
+int[3] gi;
+float[3] gf;
+bool[3] gb;
+function : void main(){
+	
+	int[3] i;
+	float[3] f;
+	bool[3] b;
+	i[1] = 2;
+	
+	f[2] = 1.8;
+	char debug = "!";
+	f[2] = i[i[1]];
+
+}

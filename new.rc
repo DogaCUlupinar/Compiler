@@ -1,0 +1,19 @@
+int myX;
+
+function : void foo(){
+int x;
+//int i = 5 + x; // Error, cannot find x in the global scope
+}
+
+function : int main() {
+  //int *x;
+
+  //new x;	// phase 0 will make this syntactically correct
+
+  //*x = 1;
+
+  //delete x;	// phase 0 will make this syntactically correct
+  int x;
+
+  return 0;
+}

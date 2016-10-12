@@ -1,0 +1,23 @@
+structdef A { int a; int aa; int[10] array; float f; };
+structdef B { int a; A* instructptr; };
+A* globalstructPtr;
+A globalStruct;
+	
+function : void main(){
+	A* localstructPtr;
+	A localStruct;
+	localstructPtr = &localStruct;
+	int print;
+	localstructPtr->aa = 10;
+	print = localstructPtr->aa;
+	cout<<"should be 10 and is : "<<localstructPtr->aa<<endl;
+	
+	localstructPtr->f = 4.20;
+	cout<<"should be 4.20 and is : "<<localstructPtr->f<<endl;
+	//for global arrow operator
+	
+	globalstructPtr = &globalStruct;
+	globalstructPtr->aa = 100;
+	cout<<"should be 100 and is : "<<globalstructPtr->aa<<endl;
+	
+}

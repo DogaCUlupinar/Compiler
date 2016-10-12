@@ -1,0 +1,27 @@
+
+
+function : void main()
+{
+	int a = 1;
+	
+	if (a >= 0 ) {
+	
+		while (a != 3) {
+			cout<<"In While"<<endl;
+			
+			if (a <5) {
+			 	a++;
+			 	continue;
+			}else {
+				break;
+			}
+		}
+
+	}
+	
+	cout<<"In Main"<<endl;
+	cout<<a<<endl;
+
+	
+
+}

@@ -1,0 +1,41 @@
+
+
+function : void foo(int a, float b, bool c , int & d, bool &e , float &f , bool g ,int *h , int *i)
+{
+
+	cout<<a<<endl;
+	cout<<b<<endl;
+	cout<<c<<endl;
+	cout<<d<<endl;
+	cout<<e<<endl;
+	cout<<f<<endl;
+	cout<<g<<endl;
+	cout<<*h<<endl;
+	cout<<*i<<endl;
+
+}
+
+
+
+function : void main()
+{
+	int xxi = 40;
+	int a = 10;
+	bool b = false;
+	float c = 123.2;
+	
+
+	int * localPtrxx;
+
+	int xi = 4;
+	int * localPtrx;
+	
+	localPtrx = &xi;
+
+	
+	
+	foo(1, 222.23 , true , a , b , c, true , localPtrx , &xxi );
+
+}
+
+

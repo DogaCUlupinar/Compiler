@@ -1,0 +1,31 @@
+
+
+auto g = 33;
+
+function : void foo(int x)
+{
+	cout<<"In the foo"<<endl;
+	cout<<x<<endl;
+}
+
+funcptr : void (int x) fp1;
+
+function : void main()
+{
+	auto i = 5; // i is of type int 
+	static auto b = true; // b is of type boolt 
+	const auto f = 1.0; // f is of type float 
+	
+	cout<<i<<endl;
+	cout<<b<<endl;
+	cout<<f<<endl;
+	
+	cout<<g<<endl;
+	
+	fp1 = foo ;
+	auto fp2 = fp1 ;
+	fp2(8);
+	
+	
+
+}

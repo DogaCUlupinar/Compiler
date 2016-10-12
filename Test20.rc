@@ -1,0 +1,48 @@
+
+
+
+
+function : void main ()
+{
+	bool a = true;
+	bool b = true;
+	bool c = false;
+	bool d = false;
+	
+	if (!a) {
+		cout<<"True"<<endl;
+	
+	}
+	else {
+	
+		cout<<"False"<<endl;
+		
+		if (b == true) {
+			cout<<"True"<<endl;
+			
+			if (d == false) {
+				cout<<"Extra"<<endl;
+			}
+			
+			if (c == true) {
+				cout<<"Fail2"<<endl;
+			}
+			else {
+				cout<<"Win"<<endl;
+			
+			}
+		}else {
+			cout<<"Fail"<<endl;
+		
+		}
+	
+	}
+	
+	cout<<a<<endl;
+	cout<<b<<endl;
+	cout<<c<<endl;
+	cout<<d<<endl;
+	
+
+	
+}

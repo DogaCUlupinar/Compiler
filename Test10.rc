@@ -1,0 +1,66 @@
+
+int c = 10;
+
+function : int foo1()
+{
+
+	const int a = 120;
+
+	cout<<a*c<<endl;
+	cout<<a/c<<endl;
+	cout<<a%c<<endl;
+	
+	return (a + 2*c - a/2 + c%6 + (-a)*c);
+	
+
+}
+
+
+function : int foo2()
+{
+
+	const int a = 120;
+
+	cout<<a|a<<endl;
+	cout<<a^a<<endl;
+	cout<<a&0<<endl;
+	
+	return 1;
+
+}
+
+function : int foo3()
+{	
+	int a = 1;
+	int b = 2;
+	int c = 3;
+	int d = 4;
+	int e = 5;
+	int f = 6;
+	int x = 7;
+	int y = 8;
+	
+	return ((a+b) + (c+d) + (e+f) + (x+y));
+	
+	
+
+}
+
+
+
+function : void main ()
+{
+	
+	cout<<"foo1"<<endl;
+	cout<<foo1()<<endl;
+	
+	
+	cout<<"foo2"<<endl;
+	cout<<foo2()<<endl;
+	
+	cout<<"foo3"<<endl;
+	cout<<foo3()<<endl;
+
+
+
+}

@@ -1,0 +1,22 @@
+
+function : void foo(int x)
+{
+	cout<<"In the foo"<<endl;
+	cout<<x<<endl;
+}
+
+
+funcptr : void (int x) fp1;
+
+function : void main()
+{
+	fp1 = foo ;
+	funcptr : void (int x) fp2 = fp1 ;
+	cout<<"the x is "<<x;
+	fp2(8);
+
+}
+
+
+int x = 5;
+

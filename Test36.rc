@@ -1,0 +1,14 @@
+
+
+int g  = 1;
+
+function : int * foo ()
+{
+	return &g;
+}
+
+function: void main()
+{
+	cout<<*foo()<<endl;
+}
+	

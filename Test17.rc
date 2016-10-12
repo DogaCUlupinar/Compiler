@@ -1,0 +1,25 @@
+
+
+
+function : int  foo ( int & b , int c) 
+{
+
+	
+	cout<<b<<endl;
+	b++;
+	int a = 3;
+	return a;
+}
+
+
+int x = 11;
+
+function : void main ()
+{
+
+	int c = 30;
+	foo(x,c);
+	cout<<x<<endl;
+
+	
+}

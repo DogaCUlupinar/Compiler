@@ -1,0 +1,15 @@
+const int x = 5;
+//int* gptr = &x;
+//ask TA if this is okay;
+function : void main(){
+	int a = 5;
+	int *ptr = &a;
+	cout<<"should be 5 and is : "<<*ptr<<endl;
+
+	int[3] array1;
+	int[8] array2;
+	array1[1] = 2;
+
+	array2[1] = array1[1];
+	cout<<"should be 2 and is : "<<array2[1]<<endl;
+}

@@ -1,0 +1,21 @@
+
+
+structdef A {int a; float b;};
+
+function :  A foo()
+{
+	A sa;
+	sa.a = 3;
+	return sa;
+}
+
+
+
+function : void main()
+{
+
+	A saa = foo();
+
+	cout<<"should be 3:"<<saa.a<<endl;
+
+}

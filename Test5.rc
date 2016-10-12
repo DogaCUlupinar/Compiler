@@ -1,0 +1,11 @@
+
+function : void main ()
+{
+	int a = 3;
+	cout<<"a++:"<<a++<<endl;
+	cout<<"++a:"<<++a<<endl;
+	
+	cout<<"a--:"<<a--<<endl;
+	cout<<"--a:"<<--a<<endl;
+	
+}

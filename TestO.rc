@@ -1,0 +1,12 @@
+int *x; 
+int *y;
+function : int main()
+{
+	//test for extra credit 2
+	new x;
+
+	y=x;
+	delete x;
+	delete y;
+	return 0;
+}

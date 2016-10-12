@@ -1,0 +1,14 @@
+structdef A { int a; int aa; int[10] array; float f; };
+structdef B { int a; A* instructptr; };
+	
+function : void main(){
+	A a;
+	B b;
+	B* pointerB;
+	pointerB = &b;
+	pointerB->instructptr = &a;
+	pointerB->instructptr->aa = 420;
+	int print = pointerB->instructptr->aa;
+	
+	cout<<"should be 420 and is : "<<print<<endl; 
+}
