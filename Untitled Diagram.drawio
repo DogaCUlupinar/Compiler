@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T18:33:08.007Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="QPBOHhEA3noAfBuula45" version="17.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-30T20:56:11.925Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="apwu9PMYoqarXRma_TvN" version="17.3.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2062" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,9 @@
             <mxPoint x="33" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-mFzzp7ZUGHwjzqcd1_v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AZ2Zr_Ory4GUbCRComt3-2" target="-mFzzp7ZUGHwjzqcd1_v-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AZ2Zr_Ory4GUbCRComt3-2" value="Personalization&lt;br&gt;Service" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="120" width="80" height="80" as="geometry" />
         </mxCell>
@@ -82,6 +85,9 @@
         </mxCell>
         <mxCell id="-mFzzp7ZUGHwjzqcd1_v-5" value="Analytics Service" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="-80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mFzzp7ZUGHwjzqcd1_v-9" value="AI recommendation Service" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="360" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
