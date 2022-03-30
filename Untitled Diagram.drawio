@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T23:41:52.823Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="tJ9g_R1LhI3eWYPr4ms6" version="17.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-30T23:45:57.170Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="1mHZsjjWqwchEhZJZcqR" version="17.3.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="website personalization">
     <mxGraphModel dx="2062" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,14 +105,17 @@
             <mxPoint x="18" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_27ymejCfel7fbq_3qg-1" value="Client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="110" y="130" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="w_27ymejCfel7fbq_3qg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_27ymejCfel7fbq_3qg-2" target="w_27ymejCfel7fbq_3qg-8">
+        <mxCell id="w_27ymejCfel7fbq_3qg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w_27ymejCfel7fbq_3qg-1" target="w_27ymejCfel7fbq_3qg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w_27ymejCfel7fbq_3qg-2" value="Email Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="390" y="130" width="80" height="80" as="geometry" />
+        <mxCell id="w_27ymejCfel7fbq_3qg-1" value="Client" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_27ymejCfel7fbq_3qg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_27ymejCfel7fbq_3qg-2" target="w_27ymejCfel7fbq_3qg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_27ymejCfel7fbq_3qg-2" value="API Gateway" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w_27ymejCfel7fbq_3qg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="w_27ymejCfel7fbq_3qg-4" target="w_27ymejCfel7fbq_3qg-2">
           <mxGeometry relative="1" as="geometry" />
@@ -122,11 +125,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_27ymejCfel7fbq_3qg-4" value="Admin UI" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="w_27ymejCfel7fbq_3qg-4" value="Admin UI" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="110" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w_27ymejCfel7fbq_3qg-8" value="Email Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="550" y="130" width="80" height="80" as="geometry" />
+        <mxCell id="w_27ymejCfel7fbq_3qg-8" value="CTA Service" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_27ymejCfel7fbq_3qg-16" value="Email Configuration Service" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
