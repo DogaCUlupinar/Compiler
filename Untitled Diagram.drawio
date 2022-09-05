@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T16:46:54.885Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="HAeUU2H3WeS27WKjCWsd" version="19.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-05T16:15:15.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="uJ70KO69hU2reYoPLHz2" version="20.2.8" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="website personalization">
-    <mxGraphModel dx="2062" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -21,10 +21,12 @@
         <mxCell id="AZ2Zr_Ory4GUbCRComt3-0" value="Visitor&lt;br&gt;Client" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="-80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AZ2Zr_Ory4GUbCRComt3-8" value="Async Notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AZ2Zr_Ory4GUbCRComt3-2" target="AZ2Zr_Ory4GUbCRComt3-7" edge="1">
+        <mxCell id="AZ2Zr_Ory4GUbCRComt3-8" value="Async Notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AZ2Zr_Ory4GUbCRComt3-0" target="AZ2Zr_Ory4GUbCRComt3-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="360" y="70" />
+              <mxPoint x="180" y="-60" />
+              <mxPoint x="180" y="20" />
+              <mxPoint x="360" y="20" />
               <mxPoint x="360" y="40" />
             </Array>
           </mxGeometry>
@@ -72,7 +74,7 @@
         <mxCell id="-mFzzp7ZUGHwjzqcd1_v-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mFzzp7ZUGHwjzqcd1_v-3" target="AZ2Zr_Ory4GUbCRComt3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YdRMWHyZ7eBUGtiSjGQG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mFzzp7ZUGHwjzqcd1_v-3" target="AZ2Zr_Ory4GUbCRComt3-12">
+        <mxCell id="YdRMWHyZ7eBUGtiSjGQG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-mFzzp7ZUGHwjzqcd1_v-3" target="AZ2Zr_Ory4GUbCRComt3-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-mFzzp7ZUGHwjzqcd1_v-3" value="Api Gateway" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -220,7 +222,7 @@
         <mxCell id="c6oxPjuPvYqaIGzK5Bq7-12" value="Sales Whale" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1180" y="790" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YdRMWHyZ7eBUGtiSjGQG-1" value="Personalization Engine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="YdRMWHyZ7eBUGtiSjGQG-1" value="Personalization Engine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="290" y="120" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
